@@ -1,4 +1,4 @@
-# Exercise : Implement a function to find the top N words by frequency in a text
+# Exercise: Implement a function to find the top N words by frequency in a text
 
 # Task description
 1. Write a function that takes a string and an integer N as its arguments and returns the top N words by frequency in the given text
@@ -7,7 +7,7 @@
 
 # Requirements
 1. The function should take a string(text) and an integer(N) as its arguments
-2. The function should return a list of tuples, each containing a word and its frequency, sorted by frequency in descending order
+2. The function should return a list of tuples, each containing a word and its frequency, sorted by frequency in descending order `[("the", 10)]`
 3. The function should be case-insensitive and remove punctuation from the text
 
 # Tips
@@ -21,6 +21,6 @@
 text = "Functional programming is a programming paradigm that treats computation as the evaluation of mathematical functions and avoids changing state and mutable data. It is a declarative programming paradigm, which means programming is done with expressions or declarations instead of statements."
 top_n = 5
 
-# Expected output: [('programming', 4), ('and', 2), ('is', 2), ('a', 2), ('paradigm', 2)]
 print(top_n_words(text, top_n))
+# Expected output: [('programming', 4), ('and', 2), ('is', 2), ('a', 2), ('paradigm', 2)]
 ```

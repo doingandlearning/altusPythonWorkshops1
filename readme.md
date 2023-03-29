@@ -10,6 +10,7 @@
 - Higher order functions 
 - Recursion
 - Common Python libraries
+- Lambda functions
 
 ## Workshop 2: Web processing
 - Web servers
@@ -18,5 +19,6 @@
 
 ## Workshop 3: Testing and power tools
 - Test Driven Development
-- Unit and functional tests - pytest
+- Unit and functional tests 
+- pytest
 - AWS Power tools
