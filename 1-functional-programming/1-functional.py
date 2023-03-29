@@ -61,6 +61,13 @@ def createAdder(increment):
     return lambda number: number + increment
 
 
+def incrementBy5(number):
+    return number + 5
+
+
+# incrementBy5 = lambda number: number + 5
+
+
 addFive = createAdder(50)
 
 printResult(addFive, 100)
