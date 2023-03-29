@@ -1,0 +1,1 @@
+# Task: Write a function that takes a list as input and returns all possible permutations of the list using the itertools.permutations() function
