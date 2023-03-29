@@ -7,12 +7,14 @@
 
 ## Workshop 1: Functional programming
 - Functional programming
-- Higher order functions - Recursion
+- Higher order functions 
+- Recursion
 - Common Python libraries
 
 ## Workshop 2: Web processing
 - Web servers
-- REST APIs - Websockets
+- REST APIs 
+- Websockets
 
 ## Workshop 3: Testing and power tools
 - Test Driven Development
