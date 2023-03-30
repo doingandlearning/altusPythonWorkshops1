@@ -43,5 +43,8 @@ In this exercise, you will create a simple Flask web application with multiple r
 
 ## If time permits:
 - Add a division route (make sure you handle divide by zero errors!)
+```python
+return "This isn't real Math!", 400
+```
 - Add a route the calculates the factorial of a number
 - Add a route that a date as a parameter and tells how many days it is til then
