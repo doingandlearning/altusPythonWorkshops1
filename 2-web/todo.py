@@ -46,6 +46,7 @@ def update_todos(id):
 			todo.completed = data.get("completed", todo.completed)
 			return jsonify(todo.to_dict())
 	return jsonify({"message": "Cannot find todo with given id", "error": True}), 404
+
 # D
 @app.delete("/todos/<int:id>")
 def delete_todo(id):
