@@ -14,7 +14,7 @@
 
 ## Workshop 2: Web processing
 - Web servers
-- REST APIs 
+- REST APIs/ GraphQL
 - Websockets
 
 ## Workshop 3: Testing and power tools
