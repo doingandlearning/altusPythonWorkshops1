@@ -1,12 +1,12 @@
 from datetime import datetime
-from flask import Flask, request
+from flask import Flask, request, jsonify
 
 app = Flask(__name__) # dunder 
 
 # decorator! 
 @app.route("/", methods=["POST", "GET"])
 def hello_world(): # hello world
-	return "Hello world!"
+	return jsonify({"message":"Hello world!"})
 
 @app.route("/other-route")
 def other_response():
