@@ -9,6 +9,8 @@ socketio = SocketIO(app, logger=True)
 
 @app.get("/")
 def get_home_page():
+	emit("error_message", {'message': "Important error message"}, broadcast=True)
+	# emit('message', {'text': data['text'], 'user': data['user']}, broadcast=True)
 	return render_template("index.html", date = datetime.datetime.now())
 
 @app.get("/chat/<username>")

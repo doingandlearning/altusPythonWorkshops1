@@ -45,6 +45,10 @@
                         document.getElementById("chat").innerHTML += `${user}: ${text}\n`;  
                     }
                 });
+
+                socket.on('error_message', function(data) {
+                    alert(data.message)
+                })
             });
         </script>
     </head>
