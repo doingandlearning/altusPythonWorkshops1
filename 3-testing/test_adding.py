@@ -68,3 +68,5 @@ def test_get_current_directory(monkeypatch):
 	monkeypatch.setattr(os, 'getcwd', mock_getcwd)
 
 	assert example() == '/data/user/1234'
+
+
